@@ -1,0 +1,22 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build output directory
+.next/
+
+# Ignore test files
+tests/
+**/*.test.ts
+**/*.test.tsx
+
+# Ignore files inside the public folder
+public/
+
+# Ignore specific file types
+*.min.js
+*.min.css
+*.d.ts
+
+# Ignore config files (optional)
+.eslintrc.js
+.prettierrc
