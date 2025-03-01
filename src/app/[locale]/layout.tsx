@@ -2,6 +2,9 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { Locale, routing } from '@/i18n/routing'
+import Header from '@/components/organisms/header'
+import Footer from '@/components/organisms/footer'
+import { TailwindIndicator } from '@/components/atoms/tailwind-indicator'
 
 export default async function LocaleLayout({
   children,
@@ -22,7 +25,12 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
-      {children}
+      <main className='flex flex-col min-h-screen max-w-6xl mx-auto'>
+        <Header />
+        <div className='flex-grow'>{children}</div>
+        <Footer />
+      </main>
+      <TailwindIndicator />
     </NextIntlClientProvider>
   )
 }

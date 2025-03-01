@@ -1,8 +1,5 @@
 import { ThemeProvider } from '@/components/ui/theme-provider'
 import '../styles/globals.css'
-import Header from '@/components/organisms/header'
-import { TailwindIndicator } from '@/components/atoms/tailwind-indicator'
-import Footer from '@/components/organisms/footer'
 
 export default async function RootLayout({
   children,
@@ -21,12 +18,7 @@ export default async function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className='flex flex-col min-h-screen max-w-6xl mx-auto'>
-            <Header />
-            <div className='flex-grow'>{children}</div>
-            <Footer />
-          </main>
-          <TailwindIndicator />
+          {children}
         </ThemeProvider>
       </body>
     </html>
