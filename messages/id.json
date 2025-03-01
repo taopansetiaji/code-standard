@@ -1,0 +1,17 @@
+{
+  "HomePage": {
+    "title": "Selamat datang di Wonderful Indonesia!",
+    "subtitle": "Temukan Keindahan Alam, Budaya, dan Keramahtamahan Indonesia",
+    "desc": "Indonesia adalah negara kepulauan yang penuh dengan pesona alam yang luar biasa, keragaman budaya yang kaya, dan keramahan masyarakat yang hangat. Dari pantai-pantai yang menakjubkan hingga hutan tropis yang lebat, Indonesia menawarkan pengalaman yang tak terlupakan bagi para wisatawan. Mari jelajahi keajaiban Indonesia!"
+  },
+  "NotFoundPage": {
+    "title": "Halaman tidak ditemukan"
+  },
+  "Navigation": {
+    "home": "Beranda",
+    "about": "Tentang"
+  },
+  "Footer": {
+    "copyright": "Hak Cipta © 2025 Wonderful Indonesia. Semua hak cipta dilindungi undang-undang."
+  }
+}
