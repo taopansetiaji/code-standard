@@ -1,0 +1,17 @@
+{
+  "HomePage": {
+    "title": "Welcome to Wonderful Indonesia!",
+    "subtitle": "Discover Indonesia's Natural Beauty, Culture and Hospitality",
+    "desc": "Indonesia is an archipelago full of incredible natural charm, rich cultural diversity and warm hospitality. From stunning beaches to lush tropical forests, Indonesia offers an unforgettable experience for travelers. Let's explore the wonders of Indonesia!"
+  },
+  "NotFoundPage": {
+    "title": "Page not found"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "Footer": {
+    "copyright": "Copyright © 2025 Wonderful Indonesia. All rights reserved."
+  }
+}

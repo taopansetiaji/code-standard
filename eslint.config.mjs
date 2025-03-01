@@ -16,6 +16,7 @@ const eslintConfig = [
   {
     rules: {
       'capitalized-comments': ['error', 'always'],
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
   {
